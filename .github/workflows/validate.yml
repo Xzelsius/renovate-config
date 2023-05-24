@@ -1,0 +1,31 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+env:
+  LOG_LEVE: debug
+
+jobs:
+  preset:
+      runs-on: ubuntu-latest
+      timeout-minutes: 10
+
+      strategy:
+        matrix:
+          file:
+            - default
+            - dotnet
+            - github-actions
+            - npm
+
+      env:
+        RENOVATE_CONFIG_FILE: ${{ matrix.file }}.json
+
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+
+        - name: Validating ${{ matrix.file }}
+          run: npx -p renovate renovate-config-validator
