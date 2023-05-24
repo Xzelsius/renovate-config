@@ -7,6 +7,7 @@ This repository contains my personal presets for [Renovate](https://renovatebot.
 | Preset                                           | Description                                             |
 |--------------------------------------------------|---------------------------------------------------------|
 | `github>xzelsius/renovate-config`                | [Default configuration](default.json)                   |
+| `github>xzelsius/renovate-config:dotnet`         | [Configuration for .NET](dotnet.json)                   |
 
 ## Copyright
 

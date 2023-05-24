@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": ".NET configuration for my repositories.",
+  "extends": ["github>xzelsius/renovate-config"],
+  "ignorePaths": [],
+  "packageRules": [
+    {
+      "description": "Labels for PRs made for NuGet packages",
+      "matchManagers": ["nuget"],
+      "addLabels": ["nuget"]
+    },
+    {
+      "description": "Group PRs made for Testcontainer NuGet packages",
+      "matchPackagePatterns": ["^Testcontainers"],
+      "groupName": "Testcontainers"
+    },
+    {
+      "description": "Group PRs made for Microsoft.AspNetCore.Mvc.Versioning NuGet packages",
+      "matchPackagePatterns": ["^Microsoft.AspNetCore.Mvc.Versioning"],
+      "groupName": "Microsoft.AspNetCore.Mvc.Versioning"
+    }
+  ]
+}
