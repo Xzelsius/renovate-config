@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "GitHub Actions configuration for my repositories.",
+  "extends": [
+    "github>xzelsius/renovate-config",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "packageRules": [
+    {
+      "description": "Labels for PRs made for GitHub Actions",
+      "matchManagers": ["github-actions"],
+      "addLabels": ["github-actions"]
+    }
+  ]
+}
