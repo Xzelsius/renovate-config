@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for all my repositories.",
+  "extends": [
+    "config:base",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
+    ":semanticCommitScope(deps)"
+  ],
+  "rebaseWhen": "behind-base-branch",
+  "assignees": ["Xzelsius"],
+  "labels": ["dependencies"]
+}
