@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "npm configuration for my repositories.",
+  "extends": ["github>xzelsius/renovate-config"],
+  "packageRules": [
+    {
+      "description": "Labels for PRs made for npm packages",
+      "matchManagers": ["npm"],
+      "addLabels": ["npm"]
+    }
+  ]
+}
