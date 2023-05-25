@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Terraform configuration for my repositories.",
+  "extends": ["github>xzelsius/renovate-config"],
+  "packageRules": [
+    {
+      "description": "Labels for PRs made for Terraform providers",
+      "matchManagers": ["terraform"],
+      "addLabels": ["terraform"]
+    }
+  ]
+}

@@ -19,6 +19,7 @@ jobs:
             - dotnet
             - github-actions
             - npm
+            - terraform
 
       env:
         RENOVATE_CONFIG_FILE: ${{ matrix.file }}.json
