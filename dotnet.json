@@ -18,6 +18,11 @@
       "description": "Group PRs made for Microsoft.AspNetCore.Mvc.Versioning NuGet packages",
       "matchPackagePatterns": ["^Microsoft.AspNetCore.Mvc.Versioning"],
       "groupName": "Microsoft.AspNetCore.Mvc.Versioning"
+    },
+    {
+      "description": "Group PRs made for Microsoft.OpenApi NuGet packages",
+      "matchPackagePatterns": ["^Microsoft.OpenApi"],
+      "groupName": "Microsoft.OpenApi"
     }
   ]
 }
