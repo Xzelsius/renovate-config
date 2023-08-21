@@ -10,6 +10,7 @@ This repository contains my personal presets for [Renovate](https://renovatebot.
 | `github>xzelsius/renovate-config:dotnet`         | [Configuration for .NET](dotnet.json)                   |
 | `github>xzelsius/renovate-config:github-actions` | [Configuration for GitHub Actions](github-actions.json) |
 | `github>xzelsius/renovate-config:npm`            | [Configuration for NPM](npm.json)                       |
+| `github>xzelsius/renovate-config:terraform`      | [Configuration for Terraform](terraform.json)           |
 
 ## Copyright
 
