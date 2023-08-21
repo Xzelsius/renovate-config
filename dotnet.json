@@ -23,6 +23,11 @@
       "description": "Group PRs made for Microsoft.OpenApi NuGet packages",
       "matchPackagePatterns": ["^Microsoft.OpenApi"],
       "groupName": "Microsoft.OpenApi"
+    },
+    {
+      "description": "Group PRs made for Gridify NuGet packages",
+      "matchPackagePatterns": ["^Gridify"],
+      "groupName": "Gridify"
     }
   ]
 }
