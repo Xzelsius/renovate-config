@@ -28,6 +28,11 @@
       "description": "Group PRs made for Gridify NuGet packages",
       "matchPackagePatterns": ["^Gridify"],
       "groupName": "Gridify"
+    },
+    {
+      "description": "Group PRs made for NUKE packages",
+      "matchPackagePatterns": ["^Nuke"],
+      "groupName": "NUKE Build"
     }
   ]
 }
