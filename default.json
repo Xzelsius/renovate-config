@@ -8,6 +8,11 @@
     ":semanticCommitScope(deps)"
   ],
   "rebaseWhen": "behind-base-branch",
+  "minimumReleaseAge": "3 days",
+  "minimumReleaseAgeBehaviour": "timestamp-optional",
+  "vulnerabilityAlerts": {
+    "minimumReleaseAge": "0 days"
+  },
   "assignees": ["Xzelsius"],
   "labels": ["dependencies"]
 }
